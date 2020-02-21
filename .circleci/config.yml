@@ -12,4 +12,4 @@ workflows:
     jobs:
       - welcome/run
 steps:
-	- run: sudo apt update && sudo apt install neofetch && neofetch
+   - run: sudo apt update && sudo apt install neofetch && neofetch
